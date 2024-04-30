@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- DM Sans Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- DM Sans Bold font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,900;1,9..40,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- school bell font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Media Query CSS -->
+    <link rel="stylesheet" href="assets/css/medie_query.css" />
+
+    <!-- AOS animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      .header_bg {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("assets/images/Daycare08/Botle_logo.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+      }
+
+      .header_shape {
+        background-image: url("assets/images/sample/header_shape01.svg");
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        top: 0;
+        background-repeat: no-repeat;
+      }
+
+      .about_bg {
+        background-image: url("assets/images/sample/about_shape01.svg");
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .about_background {
+        background-image: url("assets/images/sample/about_shape01.svg");
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: 700px;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .about_bg_01 {
+        background-image: url("assets/images/sample/about_shape01.svg");
+        padding-top: 200px;
+        padding-bottom: 200px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .testimonial_bg {
+        background-image: url("assets/images/sample/testimonail03.svg");
+        padding-top: 200px;
+        padding-bottom: 200px;
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      }
+
+      .video_bg {
+        background-image: url("assets/images/sample/video_bg.svg");
+        padding-top: 200px;
+        padding-bottom: 200px;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .content_bg {
+        background-image: url("assets/images/sample/testimonail01.svg");
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      .about_section {
+        background-image: url("assets/images/sample/about_shape01.svg");
+        background-repeat: no-repeat;
+      }
+
+      .video_background {
+        background-image: url("assets/images/sample/shape11.svg");
+        background-repeat: no-repeat;
+        padding-top: 400px;
+        padding-bottom: 400px;
+        background-size: cover;
+      }
+    </style>
+
+    <title>Daycare</title>
+  </head>
+  <body>
+    <!-- =======  Contact Header ======= -->
+    <section class="d-none d-md-block">
+      <div class="row mx-0 header_fonts">
+        <div
+          class="col-2 orange_bg py-2 white_text d-flex justify-content-around"
+        >
+          <i class="bi bi-twitter header_socials_icon"></i>
+          <i class="bi bi-facebook header_socials_icon"></i>
+          <i class="bi bi-pinterest header_socials_icon"></i>
+          <i class="bi bi-instagram header_socials_icon"></i>
+        </div>
+        <div class="col blue_bg py-2 white_text">
+          <p class="mb-0">Mon to Sat : 8:00 am - 17:30 pm</p>
+        </div>
+        <div class="col blue_bg py-2 white_text d-flex justify-content-end">
+          <div class="d-flex">
+            <i class="bi bi-geo-alt-fill header_pin_icon"></i>
+            <p class="mb-0">47 Meyer street Roodepoort Florida, South Africa</p>
+          </div>
+        </div>
+        <div class="col blue_bg py-2 white_text d-flex justify-content-end">
+          <div class="d-flex">
+            <i class="bi bi-envelope-fill header_pin_icon"></i>
+            <p class="mb-0">admin@BotlebaLesedi.co.za</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======  Mobile Header ======= -->
+    <section class="mobile_contact_bg d-md-none">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col">
+            <p class="mb-0 sm_contact_text">(078) 440 9319</p>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <i class="bi bi-telephone-inbound-fill contact_sm_icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======  Navbar ======= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_bg py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="assets/images/Daycare08/Botle_logo.jpg"
+            alt=""
+            class="navbar_logo p-1 d-block d-md-none"
+          />
+          <h1 class="navbar_title mb-0">Botle ba Lesedi</h1></a
+        >
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <i class="bi bi-list menu_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Teachers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Registration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Notice Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <div>
+              <div class="d-flex align-items-center item_one_container">
+                <i class="bi bi-telephone-fill navbar_contact_icon"></i>
+                <div>
+                  <h6 class="mb-0 fw-bold">(078) 440 9319</h6>
+                  <p class="mb-0">Call For Questions</p>
+                </div>
+              </div>
+            </div>
+            <button class="btn primary_btn">Book a Visit</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =======  Navbar Menu offcanvas ======= -->
+    <div
+      class="offcanvas offcanvas-start menu_bg"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5
+          class="offcanvas-title fw-bold text-white"
+          id="offcanvasExampleLabel"
+        ></h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <center>
+          <img
+            src="assets/images/Daycare08/Botle_logo.jpg"
+            class="menu_logo p-2 mb-5"
+          />
+        </center>
+        <center>
+          <p class="mb-3 menu_fonts">Home</p>
+          <p class="mb-3 menu_fonts">About</p>
+          <p class="mb-3 menu_fonts">Gallery</p>
+          <p class="mb-3 menu_fonts">Teachers</p>
+          <p class="mb-3 menu_fonts">Programs</p>
+          <p class="mb-3 menu_fonts">Registration</p>
+          <p class="mb-3 menu_fonts">Notice Board</p>
+          <p class="mb-3 menu_fonts">Contact</p>
+        </center>
+      </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <section class="header_bg pt-5 overflow_content">
+      <img
+        src="assets/images/sample/headerWave.svg"
+        alt=""
+        class="header_wave"
+      />
+
+      <center>
+        <div class="container p-5">
+          <h1
+            class="text-white title_texts header_title"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            Your Trusted Daycare for Tomorrow's Leaders
+          </h1>
+          <button class="btn orange_bg py-3 px-5 mt-3 fw-bold text-white">
+            Book a visit
+          </button>
+        </div>
+      </center>
+    </section>
+
+    <!-- ======= About Header Section ======= -->
+    <section class="about_header_bg">
+      <div class="container pt-5 overflow_content">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <center>
+              <img
+                src="assets/images/Daycare08/botle_about_header01.jpg"
+                alt=""
+                class="border_image01"
+              />
+              <h5 class="fw-bold mt-5 title_texts header_about_text">
+                Home-like environment
+              </h5>
+            </center>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <center>
+              <img
+                src="assets/images/Daycare08/botle_about_header02.jpg"
+                alt=""
+                class="border_image02"
+              />
+              <h5 class="fw-bold mt-5 title_texts header_about_text">
+                Safety and security
+              </h5>
+            </center>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <center>
+              <img
+                src="assets/images/Daycare08/botle_about_header03.jpg"
+                alt=""
+                class="border_image03"
+              />
+              <h5 class="fw-bold mt-5 title_texts header_about_text">
+                Quality educators
+              </h5>
+            </center>
+          </div>
+          <div
+            class="col-12 col-md-6 col-lg-3 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <center>
+              <img
+                src="assets/images/Daycare08/botle_about_header05.jpg"
+                alt=""
+                class="border_image04"
+              />
+              <h5 class="fw-bold mt-5 title_texts header_about_text">
+                Play to learn
+              </h5>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= About Section ======= -->
+    <section class="about_yellow_bg mt-5">
+      <div class="container">
+        <div class="row pt-5 overflow_content">
+          <div class="col-12 col-md-12 col-lg-6 mb-5 d-flex align-items-center">
+            <div>
+              <h4
+                class="school_font"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                About Us
+              </h4>
+              <h2
+                class="title_texts about_title mb-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Connecting Hearts and Nurturing Minds
+              </h2>
+              <p
+                class="text-dark mb-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Welcome to our vibrant daycare and preschool community, where
+                learning knows no bounds! At Botle ba Lesedi Daycare Center,
+                we're dedicated to providing a nurturing and stimulating
+                environment that fosters the growth and development of every
+                child in our care. From our youngest adventurers to our spirited
+                preschoolers, we believe in the power of play-based learning to
+                ignite curiosity and lay the foundation for a lifelong love of
+                learning.
+              </p>
+              <p
+                class="text-dark mb-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Our experienced and passionate educators are committed to
+                creating enriching experiences tailored to each child's unique
+                needs and interests. Through a blend of structured activities
+                and free exploration, we inspire creativity, build confidence,
+                and cultivate essential skills for academic and social success.
+                At Botle ba Lesedi Daycare Center, we're not just shaping minds;
+                we're nurturing hearts, empowering young learners to thrive and
+                flourish in a supportive and inclusive community. Come join us
+                on this exciting journey of discovery and growth
+              </p>
+              <button
+                class="btn primary_btn py-3 px-5"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6 mb-5">
+            <div class="row">
+              <div
+                class="col-12 col-md-6 col-lg-12 mb-3"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <img
+                    src="assets/images/Daycare08/Botle_logo.jpg"
+                    alt=""
+                    class="daycare_logo p-3"
+                  />
+                </center>
+              </div>
+              <div
+                class="col-12 col-md-6 col-lg-12 mb-3"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <img
+                    src="assets/images/Daycare08/botle_about01.jpg"
+                    alt=""
+                    class="about_image"
+                  />
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Gallery ======= -->
+    <section class="gallery_bg mt-5">
+      <div class="container py-5 overflow_content">
+        <center>
+          <h4 class="school_font blog_sub">Our Gallery</h4>
+          <h2 class="title_texts about_title mb-1">
+            Vivid Moments Captured Gallery
+          </h2>
+        </center>
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 col-lg-4 mb-3 mt-5">
+            <img
+              src="assets/images/Daycare08/botle_gallery01.jpg"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              class="gallery_image"
+            />
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg-4 mb-3 mt-3">
+            <img
+              src="assets/images/Daycare08/botle_gallery02.jpg"
+              alt=""
+              class="gallery_image"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            />
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <img
+              src="assets/images/Daycare08/botle_gallery03.jpg"
+              alt=""
+              class="gallery_image"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            />
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg-4 mb-3 mt-5">
+            <img
+              src="assets/images/Daycare08/botle_gallery04.jpg"
+              alt=""
+              class="gallery_image"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            />
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg-4 mb-3 mt-3">
+            <img
+              src="assets/images/Daycare08/botle_gallery05.jpg"
+              alt=""
+              class="gallery_image"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            />
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <img
+              src="assets/images/Daycare08/botle_gallery06.jpg"
+              alt=""
+              class="gallery_image"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            />
+          </div>
+          <!-- end item  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Testimonial ======= -->
+    <section class="testimonial_bg_card my-5 py-5">
+      <div class="container overflow_content">
+        <center>
+          <div class="Testimonial_container">
+            <div class="p-4">
+              <h4
+                class="school_font"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Testimonial
+              </h4>
+              <h2
+                class="title_texts about_title mb-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Parents' words are the key to happy kids
+              </h2>
+              <p
+                class="text-secondary"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                We're incredibly pleased with Botle ba Lesedi Daycare Center.
+                The staff is attentive and caring, and our child loves going
+                there every day. The curriculum is engaging, and we can see our
+                child learning and growing with each passing day. The
+                communication with the teachers is excellent, providing us with
+                peace of mind knowing our child is in such capable hands.
+              </p>
+              <div class="d-flex justify-content-center">
+                <i class="bi bi-arrow-left-circle-fill testimonial_icon01"></i>
+                <div class="px-2"></div>
+                <i class="bi bi-arrow-right-circle-fill testimonial_icon02"></i>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+    </section>
+
+    <!-- ======= School Video ======= -->
+    <section class="video_section_bg">
+      <div class="container overflow_content">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6 mb-4 d-flex align-items-center">
+            <div>
+              <h1
+                class="title_texts about_title text-dark mb-5 text-white fw-bold"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Let’s discover the best campus through a video tour
+              </h1>
+
+              <button
+                class="btn btn-light video_btn px-5 py-3"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                visit now
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-12 col-lg-6 mb-4"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <center>
+              <iframe
+                class="school_video"
+                src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100075980892299%2Fvideos%2F1261403008153996%2F&show_text=false&width=264&t=0"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                allowfullscreen="true"
+              ></iframe>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Programs ======= -->
+    <section class="container mt-5 pt-5 overflow_content">
+      <center>
+        <h4
+          class="school_font blue_font"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Our Programs
+        </h4>
+        <h2
+          class="title_texts about_title mb-1"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          We meet kids at their level
+        </h2>
+        <h2
+          class="title_texts about_title mb-4"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          regardless of their age
+        </h2>
+      </center>
+
+      <div class="row">
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="program_card py-5 px-4 h-100">
+            <img
+              src="assets/images/Daycare08/botle_program01.jpg"
+              alt=""
+              class="program_image mb-4"
+            />
+            <center>
+              <h5 class="fw-bold title_texts">Tiny Tots</h5>
+              <p class="age_text">(4-12 months)</p>
+              <p class="text-secondary">
+                Safe, nurturing environment for sensory exploration and gentle
+                interactions.
+              </p>
+              <button class="btn btn_program">
+                <i class="bi bi-arrow-right text-white"></i>
+              </button>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="program_card01 py-5 px-4 h-100">
+            <img
+              src="assets/images/Daycare08/botle_program02.jpg"
+              alt=""
+              class="program_image mb-4"
+            />
+            <center>
+              <h5 class="fw-bold title_texts">Little Explorers</h5>
+              <p class="age_text">(1-2 years)</p>
+              <p class="text-secondary">
+                Curious toddlers explore through guided play and hands-on
+                activities.
+              </p>
+              <button class="btn btn_program01">
+                <i class="bi bi-arrow-right text-white"></i>
+              </button>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="program_card02 py-5 px-4 h-100">
+            <img
+              src="assets/images/Daycare08/botle_program03.jpg"
+              alt=""
+              class="program_image mb-4"
+            />
+            <center>
+              <h5 class="fw-bold title_texts">Toddler Trekkers</h5>
+              <p class="age_text">(2-3 years)</p>
+              <p class="text-secondary">
+                Active exploration and imaginative play foster social and
+                cognitive development.
+              </p>
+              <button class="btn btn_program02">
+                <i class="bi bi-arrow-right text-white"></i>
+              </button>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-5"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="program_card03 py-5 px-4 h-100">
+            <img
+              src="assets/images/Daycare08/botle_header03.png"
+              alt=""
+              class="program_image mb-4"
+            />
+            <center>
+              <h5 class="fw-bold title_texts">Pre-K Pioneers</h5>
+              <p class="age_text">(3-4 years)</p>
+              <p class="text-secondary">
+                Empowering young learners for confident, hands-on
+                problem-solving experiences.
+              </p>
+              <button class="btn btn_program03">
+                <i class="bi bi-arrow-right text-white"></i>
+              </button>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= Teachers ======= -->
+    <section class="container mt-5 pt-5">
+      <center>
+        <h4 class="school_font blue_font pt-5">Our Teacher</h4>
+        <h2 class="title_texts about_title mb-1">Meet our expert & smart</h2>
+        <h2 class="title_texts about_title mb-5">superheroes!</h2>
+      </center>
+
+      <div class="row mt-5 pt-5 overflow_content">
+        <div
+          class="col-6 col-md-6 col-lg-3 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <center>
+              <div class="image_card01 mb-4 teacher_card_size">
+                <img
+                  src="assets/images/Daycare08/botle_teacher01.png"
+                  alt=""
+                  class="teacher_image teacher_card_image_size"
+                />
+              </div>
+
+              <h3 class="title_texts">Jane Cooper</h3>
+              <p class="text-secondary">Teacher</p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-6 col-md-6 col-lg-3 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <center>
+              <div class="image_card02 mb-4 teacher_card_size">
+                <img
+                  src="assets/images/Daycare08/botle_teacher02.png"
+                  alt=""
+                  class="teacher_image teacher_card_image_size"
+                />
+              </div>
+
+              <h3 class="title_texts">Jane Cooper</h3>
+              <p class="text-secondary">Teacher</p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-6 col-md-6 col-lg-3 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <center>
+              <div class="image_card03 mb-4 teacher_card_size">
+                <img
+                  src="assets/images/Daycare08/botle_teacher03.png"
+                  alt=""
+                  class="teacher_image teacher_card_image_size"
+                />
+              </div>
+
+              <h3 class="title_texts">Jane Cooper</h3>
+              <p class="text-secondary">Teacher</p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-6 col-md-6 col-lg-3 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <center>
+              <div class="image_card04 mb-4 teacher_card_size">
+                <img
+                  src="assets/images/Daycare08/botle_teacher04.png"
+                  alt=""
+                  class="teacher_image teacher_card_image_size"
+                />
+              </div>
+
+              <h3 class="title_texts">Jane Cooper</h3>
+              <p class="text-secondary">Teacher</p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= News Letter ======= -->
+    <section class="container mt-5 pt-5">
+      <div class="subscribe_container py-3">
+        <div class="subscribe_padding overflow_content">
+          <center>
+            <div class="circle_deco01 border border-5"></div>
+            <h2
+              class="title_texts about_title mb-1 text-white"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              Subscribe to our newsletter
+            </h2>
+            <h2
+              class="title_texts about_title mb-5 text-white"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              for daily updates
+            </h2>
+            <div
+              class="row form_width"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <div class="col-12 col-md-6 col-lg">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-2">
+                <button class="btn subscribe_btn px-5 py-3">Subscribe</button>
+              </div>
+            </div>
+            <div class="circle_deco03 border border-5"></div>
+          </center>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Blog ======= -->
+    <section class="container mt-5 pt-5 overflow_content">
+      <center>
+        <h4
+          class="school_font blog_sub pt-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Latest Blog
+        </h4>
+        <h2
+          class="title_texts about_title mb-1"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Checkout our latest news
+        </h2>
+        <h2
+          class="title_texts about_title mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          updates & articles
+        </h2>
+      </center>
+
+      <div class="row mt-5">
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="blog_card01 px-5">
+            <img
+              src="assets/images/Daycare08/botle_blog02.png"
+              alt=""
+              class="blog_image"
+            />
+            <div class="row mt-4">
+              <div class="col">
+                <button class="btn">Subject</button>
+              </div>
+              <div class="col d-flex align-items-center">
+                <p class="mb-0 card01_date">April 15 2024</p>
+              </div>
+            </div>
+            <h3 class="title_texts mt-4">
+              2023 graduation at botle ba lesedi daycare
+            </h3>
+            <div class="row mt-3">
+              <div class="col-2">
+                <i class="bi bi-person-circle blog_icon01"></i>
+              </div>
+              <div class="col d-flex align-items-center">
+                <div>
+                  <h6 class="mb-0">Botle ba Lesedi Daycare</h6>
+                  <p class="mb-0">Admin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="blog_card02 px-5">
+            <img
+              src="assets/images/Daycare08/botle_blog03.jpg"
+              alt=""
+              class="blog_image"
+            />
+            <div class="row mt-4">
+              <div class="col">
+                <button class="btn">Subject</button>
+              </div>
+              <div class="col d-flex align-items-center">
+                <p class="mb-0 card02_date">February 14 2024</p>
+              </div>
+            </div>
+            <h3 class="title_texts mt-4">Our Valentine's celebration.</h3>
+            <div class="row mt-3">
+              <div class="col-2">
+                <i class="bi bi-person-circle blog_icon02"></i>
+              </div>
+              <div class="col d-flex align-items-center">
+                <div>
+                  <h6 class="mb-0">Botle ba Lesedi Daycare</h6>
+                  <p class="mb-0">Admin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-4 mb-4"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="blog_card03 px-5">
+            <img
+              src="assets/images/Daycare08/botle_blog05.png"
+              alt=""
+              class="blog_image"
+            />
+            <div class="row mt-4">
+              <div class="col">
+                <button class="btn">Subject</button>
+              </div>
+              <div class="col d-flex align-items-center">
+                <p class="mb-0 card01_date03">August 22 2022</p>
+              </div>
+            </div>
+            <h3 class="title_texts mt-4">Birthday celebration..!!</h3>
+            <div class="row mt-3">
+              <div class="col-2">
+                <i class="bi bi-person-circle blog_icon03"></i>
+              </div>
+              <div class="col d-flex align-items-center">
+                <div>
+                  <h6 class="mb-0">Botle ba Lesedi Daycare</h6>
+                  <p class="mb-0">Admin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= bottom space ======= -->
+    <div style="height: 200px; width: 100%"></div>
+
+    <!-- ======= Footer Start ======= -->
+    <section class="footer_bg">
+      <div class="container pt-5">
+        <div class="row pt-5">
+          <div class="col-12 col-lg mb-5">
+            <div class="px-1">
+              <h2 class="title_texts about_title mb-1 footer_businessName mb-4">
+                Botle ba Lesedi Daycare
+              </h2>
+              <div class="row mb-3">
+                <div class="col-1">
+                  <i class="bi bi-geo-alt footer_icon"></i>
+                </div>
+                <div class="col">
+                  <p class="mb-0 text-light">
+                    47 Meyer street Roodepoort Florida, South Africa
+                  </p>
+                </div>
+              </div>
+              <!-- end item  -->
+              <div class="row mb-3">
+                <div class="col-1">
+                  <i class="bi bi-telephone-outbound footer_icon"></i>
+                </div>
+                <div class="col">
+                  <p class="mb-0 text-light">078 440 9319</p>
+                </div>
+              </div>
+              <!-- end item  -->
+              <div class="row mb-3">
+                <div class="col-1">
+                  <i class="bi bi-envelope footer_icon"></i>
+                </div>
+                <div class="col">
+                  <p class="mb-0 text-light">admin@BotlebaLesedi.co.za</p>
+                </div>
+              </div>
+              <!-- end item  -->
+              <div class="d-flex justify-content-between mt-4">
+                <i class="bi bi-twitter header_socials_icon"></i>
+                <i class="bi bi-facebook header_socials_icon"></i>
+                <i class="bi bi-pinterest header_socials_icon"></i>
+                <i class="bi bi-instagram header_socials_icon"></i>
+              </div>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg mb-5">
+            <h5 class="text-white fw-bold mb-4" style="align-items: baseline">
+              Links
+            </h5>
+            <p class="text-light">Admissions</p>
+            <p class="text-light">Programs</p>
+            <p class="text-light">Outdoor Games</p>
+            <p class="text-light">Appointment</p>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-md-6 col-lg mb-5">
+            <h5 class="text-white fw-bold mb-4" style="align-items: baseline">
+              Explore
+            </h5>
+            <p class="text-light">About</p>
+            <p class="text-light">Our News</p>
+            <p class="text-light">Contact</p>
+            <p class="text-light">Faq</p>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-lg mb-5">
+            <h5 class="text-white fw-bold mb-4" style="align-items: baseline">
+              Gallery
+            </h5>
+            <div class="row">
+              <div class="col-4 mb-3">
+                <img
+                  src="assets/images/Daycare08/botle_gallery01.jpg"
+                  alt=""
+                  class="footer_image"
+                />
+              </div>
+              <div class="col-4 mb-3">
+                <img
+                  src="assets/images/Daycare08/botle_gallery02.jpg"
+                  alt=""
+                  class="footer_image"
+                />
+              </div>
+              <div class="col-4 mb-3">
+                <img
+                  src="assets/images/Daycare08/botle_gallery03.jpg"
+                  alt=""
+                  class="footer_image"
+                />
+              </div>
+              <div class="col-4 mb-3">
+                <img
+                  src="assets/images/Daycare08/botle_gallery04.jpg"
+                  alt=""
+                  class="footer_image"
+                />
+              </div>
+              <div class="col-4 mb-3">
+                <img
+                  src="assets/images/Daycare08/botle_gallery05.jpg"
+                  alt=""
+                  class="footer_image"
+                />
+              </div>
+              <div class="col-4 mb-3">
+                <img
+                  src="assets/images/Daycare08/botle_gallery06.jpg"
+                  alt=""
+                  class="footer_image"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- end item  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animation Scripts start  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
